@@ -1,4 +1,12 @@
 <?php
+/**
+ *
+ * Pretty Topic Prefixes. An extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2023, Diederik Veenstra <REFUZIION>, https://refuzion.nl
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 namespace refuziion\prettyprefix\event;
 
@@ -16,12 +24,14 @@ class listener implements EventSubscriberInterface
     public function add_prefix_template_var($event)
     {
         $prefixes = [
-            'red' => 'Red',
-            'green' => 'Green',
-            'blue' => 'Blue',
+            'red' => 'PRETTYPREFIX_RED',
+            'green' => 'PRETTYPREFIX_GREEN',
+            'blue' => 'PRETTYPREFIX_BLUE',
         ];
 
         $event['page_data']['prefixes'] = $prefixes;
-        $event['template_vars']['PREFIX'] = $event['page_data']['prefix'];
-    }
+        $event['template_vars']['S_PRETTYPREFIX'] = true;
+
+		return $event;
+	}
 }

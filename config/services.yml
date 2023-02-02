@@ -1,0 +1,7 @@
+services:
+    refuziion.prettyprefix.listener:
+        class: refuziion\prettyprefix\event\main_listener
+        arguments:
+            - '@language'
+        tags:
+            - { name: event.listener }
