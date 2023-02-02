@@ -1,6 +1,6 @@
 services:
     refuziion.prettyprefix.listener:
-        class: refuziion\prettyprefix\event\main_listener
+        class: refuziion\prettyprefix\event\listener
         arguments:
             - '@language'
         tags:

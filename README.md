@@ -1,4 +1,5 @@
-# Pretty Topic Prefixes
+# Pretty Topic Prefixes [Not functional yet.]
+With this extension admins and moderators will be able to assign pretty prefixes to topics and posts.
 
 ## Installation
 
