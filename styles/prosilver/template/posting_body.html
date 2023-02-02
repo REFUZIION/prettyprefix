@@ -1,0 +1,12 @@
+<!-- IF S_PRETTYPREFIX -->
+<dl>
+    <dt><label for="prettyprefix">{L_PRETTYPREFIX}</label></dt>
+    <dd>
+        <select name="prettyprefix" id="prettyprefix">
+            <!-- BEGIN prefixes -->
+            <option value="{prefixes.VALUE}"<!-- IF PREFIX eq prefixes.VALUE --> selected<!-- ENDIF -->>{prefixes.NAME}</option>
+            <!-- END prefixes -->
+        </select>
+    </dd>
+</dl>
+<!-- ENDIF -->

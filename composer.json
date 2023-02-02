@@ -1,0 +1,22 @@
+{
+    "name": "refuziion/prettyprefix",
+    "type": "phpbb-extension",
+    "description": "A simple prefix extension for PHPBB forums",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Diederik Veenstra <REFUZIION>",
+            "email": "info@refuzion.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "phpbb/phpbb": "^3.3.0"
+    },
+    "extra": {
+        "display-name": "Pretty Prefixes",
+        "soft-require": {
+            "phpbb/phpbb": "^3.3.0 || ^3.4.0"
+        }
+    }
+}
