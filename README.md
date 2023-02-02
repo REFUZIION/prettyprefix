@@ -3,7 +3,7 @@ With this extension admins and moderators will be able to assign pretty prefixes
 
 ## Installation
 
-Copy the extension to phpBB/ext/refuziion/prettyprefix
+Copy the extension to ext/refuziion/prettyprefix
 
 Go to "ACP" > "Customise" > "Extensions" and enable the "Pretty Topic Prefixes" extension.
 
