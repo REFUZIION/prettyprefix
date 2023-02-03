@@ -4,9 +4,11 @@
     <dd>
         <select name="prettyprefix" id="prettyprefix">
             <!-- BEGIN prefixes -->
-            <option value="{prefixes.KEY}"<!-- IF PREFIX eq prefixes.KEY --> selected<!-- ENDIF -->>{L_prefixes.VALUE}</option>
+            <option value="{prefixes.VALUE}"<!-- IF PREFIX eq prefixes.VALUE --> selected<!-- ENDIF -->>{prefixes.NAME}</option>
             <!-- END prefixes -->
         </select>
     </dd>
 </dl>
 <!-- ENDIF -->
+<p>L_PRETTYPREFIX: {L_PRETTYPREFIX}</p>
+<p>S_PRETTYPREFIX: {S_PRETTYPREFIX}</p>
